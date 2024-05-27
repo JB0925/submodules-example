@@ -7,6 +7,8 @@ you can move any child projects into the "parent" project ( or make copies of th
 **Important**: Each child project should have its own git history locally on your machine as well, created by running `git init` in each one and adding and commmiting as needed.
 The parent project should also have its own git history, also created via running `git init` in it.
 
+**NOTE**: Several times in this README, I refer to the "SSH url you copy from GitHub." To find this SSH url, click on the green Code button in each repository on GitHub. Make sure it is on SSH ( it is by default ) and click "copy."
+
 ## How This Example Was Created
 - Run `mkdir -p submodules-example/{project1,project2,project3} && cd submodules-example`
 ### Setting Up Each Child Project
