@@ -1,6 +1,5 @@
 ## Submodules
-Submodules are a way for you to be able to have separate git repositories for several different projects, but keep them all inside
-of one "parent" project. The information below will discuss how this can be accomplished.
+Submodules are a way for you to be able to have separate git repositories for several different projects, but track them in one "parent" project. The information below will discuss how this can be accomplished.
 
 ## Getting Started
 First, ensure that both your "parent" directory and **each "child" directory** have their own separate repositories on GitHub. Locally,
