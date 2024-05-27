@@ -12,7 +12,7 @@ The parent project should also have its own git history, also created via runnin
 ### Setting Up Each Child Project
 - `cd` into `project{1..3}` add some trivial code in each, and run `git init`. 
 - Add and commit this new file in each of `project{1..3}`
-- Get the SSH url from GitHub for each child project and run `git remote add origin git@github.com/YourUsername/YourChildProjectName.git` in each child project.
+- Get the SSH url from GitHub for each child project and run `git remote add origin git@github.com/YourUsername/YourChildProjectName.git` in each child project, where the url is the one you just copied from GitHub.
 - In each child project, run `git push -u origin master`.
 - Optional: You can go to GitHub to verify that the content was pushed if it will give you peace of mind.
 ### Setting Up The Parent Project
