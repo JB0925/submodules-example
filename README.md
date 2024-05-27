@@ -12,12 +12,12 @@ The parent project should also have its own git history, also created via runnin
 ### Setting Up Each Child Project
 - `cd` into `project{1..3}` add some trivial code in each, and run `git init`. 
 - Add and commit this new file in each of `project{1..3}`
-- Get the SSH url from GitHub for each child project and run `git remote add origin git@github.com...` in each child project.
+- Get the SSH url from GitHub for each child project and run `git remote add origin git@github.com/YourUsername/YourChildProjectName.git` in each child project.
 - In each child project, run `git push -u origin master`.
 - Optional: You can go to GitHub to verify that the content was pushed if it will give you peace of mind.
 ### Setting Up The Parent Project
 - `cd` back to the `submodules-example` parent project.
-- Run `git init && git remote add origin git@github.com...`, where the `git@github.com...` comes from the SSH url of the parent project on GitHub.
+- Run `git init && git remote add origin git@github.com/YourUsername/YourChildProjectName.git`, where the `git@github.com...` comes from the SSH url of the parent project on GitHub.
 ### Creating The Submodules
 - In the parent project, run, `git submodule add git@github.com/YourUsername/projectName.git /path/on/your/machine/to/your/project`, where the `git@github` url comes from the SSH url of the child project you are adding.
 - Do this for all child projects that you want to add to the parent project.
