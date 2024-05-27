@@ -23,7 +23,6 @@ The parent project should also have its own git history, also created via runnin
 ### Creating The Submodules
 - In the parent project, run, `git submodule add git@github.com/YourUsername/projectName.git /path/on/your/machine/to/your/child/project`, where the `git@github` url comes from the SSH url of the **child** project you are adding.
 - Do this for all child projects that you want to add to the parent project.
-- **NOTE**: To find this SSH url, click on the green **Code** button in each repository on GitHub. Make sure it is on SSH ( it is by default ) and click "copy."
 - Finally, run `git add . && git commit -m "Adding submodules" && git push -u origin master`. Note that the commit message can be anything you want.
 - Now, when you go to the parent project on GitHub each of the child projects will be linked inside of it.
 ## What If I Want To Clone This In The Future?
