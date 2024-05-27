@@ -4,7 +4,7 @@ of one "parent" project. The information below will discuss how this can be acco
 
 ## Getting Started
 First, ensure that both your "parent" directory and **each "child" directory** have their own separate repositories on GitHub. Locally,
-you move any child projects into the "parent" project ( or make copies of them ). 
+you move any child projects into the "parent" project ( or make copies of them ). Note that this does not **have** to be done, but may be easier for the sake of organization.
 **Important**: Each child project should have its own git history locally on your machine as well, created by running `git init` in each one and adding and commmiting as needed.
 The parent project should also have its own git history, also created via running `git init` in it.
 
