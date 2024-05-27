@@ -11,9 +11,9 @@ The parent project should also have its own git history, also created via runnin
 ## How This Example Was Created
 - Run `mkdir -p submodules-example/{project1,project2,project3} && cd submodules-example`
 ### Setting Up Each Child Project
-- `cd` into `project{1..3}` add some trivial code, and run `git init`. 
+- `cd` into `project{1..3}` add some trivial code in each, and run `git init`. 
 - Add and commit this new file in each of `project{1..3}`
-- Get the SSH url from GitHub for the child project and run `git remote add origin git@github.com...`
+- Get the SSH url from GitHub for each child project and run `git remote add origin git@github.com...` in each child project.
 - In each child project, run `git push -u origin master`.
 - Optional: You can go to GitHub to verify that the content was pushed if it will give you peace of mind.
 ### Setting Up The Parent Project
@@ -31,3 +31,4 @@ The parent project should also have its own git history, also created via runnin
 - Make your update in the child project.
 - In the child project directory, add, commit, and push the changes to the child repository on GitHub.
 - `cd` to the parent project and run `git add /path/to/project/you/just/changed && git commit -m "Updating submodules after change to child project." && git push`
+
